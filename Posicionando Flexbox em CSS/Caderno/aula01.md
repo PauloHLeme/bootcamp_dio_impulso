@@ -12,7 +12,7 @@ O Flexbox foi projetado como um modelo de layout unidimensional e como um métod
 
 É a tag que envolve os itens, será nela que iremos aplicar a propriedade `display:flex`. Transforma todos os seus itens filhos em Flex Itens.
 
-![Representação de um flex container com seus flex itens](#)
+![Representação de um flex container com seus flex itens](https://github.com/PauloHLeme/bootcamp_dio_impulso/blob/main/Posicionando%20Flexbox%20em%20CSS/Caderno/images/flexbox-properties.png)
 
 ### Propriedades flex container
 
