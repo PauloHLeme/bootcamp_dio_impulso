@@ -1,20 +1,19 @@
-# Variáveis e Tipos
+# Funções
 
-## Atividade 1
+## Atividade 1: Alunos Aprovados
 
-Verifique, de duas maneiras diferentes entre si, se uma String é um palíndromo.
+1. Crie uma função que recebe o array `alunos` e um número que irá representar a média final;
+2. Percorra o array e popule um novo array auxiliar apenas com os alunos cujas notas são maiores ou iguais à média final;
+3. Utilize a técnica "object destructuring" para manipular as propriedades desejadas de cada aluno.
 
-_Palíndromo: frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)_
+## Atividade 2: This
 
-## Atividade 2
+Dada a função `calculaIdade`, utilize os métodos call e apply para modificar o valor de `this`. Crie seus próprios objetos para esta atividade!
 
-Troque todos os elementos pares e diferentes de zero de um array pelo número 0. Se o array for vazio, retorne -1.
-
-Exemplo:
-Input -> [1, 3, 4, 6, 80, 33, 23, 90]
-
-Output -> [1, 3, 0, 0, 0, 33, 23, 0]
-
-Input -> []
-
-Output -> -1
+```JS
+function calculaIdade(anos) {
+	return `Daqui a ${anos} anos, ${this.nome} terá ${
+		this.idade + anos
+	} anos de idade.`;
+}
+```
