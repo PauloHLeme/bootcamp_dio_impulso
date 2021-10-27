@@ -1,10 +1,26 @@
-print("1 x " + N + " = " + (N * 1));
-print("2 x " + N + " = " + (N * 2));
-print("3 x " + N + " = " + (N * 3));
-print("4 x " + N + " = " + (N * 4));
-print("5 x " + N + " = " + (N * 5));
-print("6 x " + N + " = " + (N * 6));
-print("7 x " + N + " = " + (N * 7));
-print("8 x " + N + " = " + (N * 8));
-print("9 x " + N + " = " + (N * 9));
-print("10 x " + N + " = " + (N * 10));
+let salario = gets();
+
+function calcularImposto(valor) {
+
+  let imposto = 0;
+  let montante;
+  let salario = valor;
+
+    if (salario > 4500.00) {
+      montante = salario - 4500.00;
+      imposto = (montante * 0.28) + 350;
+    } else if (salario > 3000.00) {
+      montante = salario - 3000.00;
+      imposto += (montante * 0.18) + 80;
+    } else if (salario > 2000.00) {
+      montante = salario - 2000.00;
+      imposto += montante;  //insira seu código nos espaços em branco
+    }
+
+    return imposto;
+
+}
+
+let resultado = calcularImposto(salario);
+
+print((resultado === 0)? "Isento" : "R$ "+resultado.toFixed(2));
