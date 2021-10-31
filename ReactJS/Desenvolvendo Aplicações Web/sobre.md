@@ -4,11 +4,29 @@
 
 ### Objetivo do curso
 
-1. CSS componentes e elementos
+1. Aula 1:
 
-2. Stateful vs. stateless
+    1. CSS componentes e elementos
 
-3. Formulários
+    2. Stateful vs. stateless
+
+    3. Formulários
+
+2. Aula 2:
+
+    1. Introdução ao Flux
+
+    2. O que é Redux
+
+    3. Redux + React
+
+3. Aula 3:
+
+    1. Rest HTTP com React
+
+    2. Imutabilidade e Redux
+
+    3. Redux + Rest
 
 ### Requisitos básicos
 
@@ -17,3 +35,5 @@
 * Instalar o Node.js e React
 
 * Editor de Texto
+
+* Instalar o Redux Dev Tools no Chrome
