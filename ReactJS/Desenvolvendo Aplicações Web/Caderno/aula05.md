@@ -8,7 +8,7 @@ Em Redux, a estrutura do fluxo de dados é um pouco diferente.
 
 Ao invés de Action, Dispatcher, Store e View, nós temos os elementos React, Action, Store e Reducer. Abaixo, uma ilustração de como segue o esquema de fluxo de informações:
 
-![fluxo de dados de uma estrutura Redux](https://github.com/PauloHLeme/bootcamp_dio_impulso/tree/main/ReactJS/Desenvolvendo%20Aplica%C3%A7%C3%B5es%20Web/img/redux-data-flow.png)
+![fluxo de dados de uma estrutura Redux](https://github.com/PauloHLeme/bootcamp_dio_impulso/blob/main/ReactJS/Desenvolvendo%20Aplica%C3%A7%C3%B5es%20Web/img/redux-data-flow.png)
 
 ## Princípios
 

@@ -28,6 +28,14 @@
 
     3. Redux + Rest
 
+4. Aula 4:
+
+    1. TDD e BDD com Jest
+
+    2. Debugging
+
+    3. Tratamento de erros
+
 ### Requisitos básicos
 
 * Ter feito o curso *introdução ao ReactJS* e *programação para internet com HTML5 e CSS3*
