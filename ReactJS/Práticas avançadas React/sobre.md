@@ -12,6 +12,18 @@
 
     3. Context API
 
+2. Por que Trabalhar com Fragmens
+
+  1. Fragmentos
+
+  2. Error Boundaries
+
+  3. Render Props
+
+  4. Typechecking com PropTypes
+
+  5. Refs e DOM
+
 ### Requisitos básicos
 
 * Introdução ao ReactJS
